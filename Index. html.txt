@@ -1,0 +1,177 @@
+02.11 12:06 PM
+Index. html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaya Ranganadh Tungala | Civil Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+body{
+background:#0f172a;
+color:white;
+overflow-x:hidden;
+}
+#particles-js{
+position:fixed;
+width:100%;
+height:100%;
+z-index:-1;
+}
+nav{
+position:fixed;
+width:100%;
+padding:15px;
+background:rgba(0,0,0,0.6);
+text-align:center;
+backdrop-filter:blur(10px);
+}
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:500;
+}
+nav a:hover{
+color:#38bdf8;
+}
+section{
+padding:100px 20px;
+text-align:center;
+}
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+.hero h1{
+font-size:40px;
+}
+.hero span{
+color:#38bdf8;
+}
+.card{
+background:#1e293b;
+margin:20px auto;
+padding:25px;
+border-radius:10px;
+max-width:900px;
+transition:0.4s;
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+h2{
+margin-bottom:20px;
+color:#38bdf8;
+}
+ul{
+text-align:left;
+margin-top:15px;
+}
+footer{
+padding:20px;
+text-align:center;
+background:#020617;
+}
+</style>
+</head>
+<body>
+<div id="particles-js"></div>
+<nav>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+<section class="hero">
+<h1>Hi, I'm <span>Jaya Ranganadh Tungala</span></h1>
+<p>Civil Engineer | Structure & Planning Specialist</p>
+<p>Avanigadda, Andhra Pradesh</p>
+</section>
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>Experienced Structure Engineer with 6+ years of experience in planning and execution of infrastructure development projects including bridges, box culverts, drains, and pipeline works. Skilled in documentation, billing with BBS, quality control, and supervision of execution works.</p>
+</div>
+</section>
+<section id="experience">
+<h2>Work Experience</h2>
+<div class="card">
+<h3>Site Engineer – Megha Engineering & Infrastructure Ltd (Feb 2025 – Present)</h3>
+<ul>
+<li>Execution of structural works like retaining walls, box culverts, drain works.</li>
+<li>Daily progress planning and coordination with senior management.</li>
+<li>Preparation of BBS and reconciliation reports.</li>
+<li>Maintaining cube test records and QA documentation.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Planning Engineer – GVPR Engineers Ltd (Jun 2023 – Feb 2025)</h3>
+<ul>
+<li>DPR, DLR documentation and subcontractor billing.</li>
+<li>Pipeline documentation & hydrotesting quality reports.</li>
+<li>Maintaining work progress and QA reports.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Jr Engineer – MEIL (Jul 2020 – Jun 2023)</h3>
+<ul>
+<li>Client & subcontractor billing works.</li>
+<li>Maintaining DPR & DLR reports.</li>
+</ul>
+</div>
+</section>
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+<p><strong>B.Tech Civil Engineering</strong> – Dr Paulraj Engineering College (JNTUK) – 7.13 CGPA</p>
+<p><strong>Diploma Civil Engineering</strong> – 79.38%</p>
+<p><strong>SSC</strong> – 9.3 GPA</p>
+</div>
+</section>
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="card">
+<p>AutoCAD | Auto Level | Microsoft Office | Google Earth</p>
+<p>Execution Drawing | BBS Preparation | Billing | Reconciliation</p>
+<p>Languages: Telugu | Hindi | English</p>
+</div>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p> +91 9010844151</p>
+<p> ranganadhtungala@gmail.com</p>
+</div>
+</section>
+<footer>
+© 2026 Jaya Ranganadh Tungala | Civil Engineer
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS("particles-js", {
+"particles": {
+"number": { "value": 100 },
+"size": { "value": 3 },
+"move": { "speed": 2 },
+"line_linked": { "enable": true },
+},
+});
+</script>
+</body>
+</html>
+
